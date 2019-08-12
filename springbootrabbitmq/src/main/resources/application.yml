@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /rabbitmq
+logging:
+  level: debug
+spring:
+  rabbitmq:
+    host: 19.168.56.134
+    port: 5672
+    username: test
+    password: test
